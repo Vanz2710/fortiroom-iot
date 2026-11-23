@@ -1,0 +1,46 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*-service-account*.json
+service-account*.json
+credentials*.json
+secrets.h
+arduino_secrets.h
+
+# Runtime device registry data (contains IPs / MAC addresses)
+esp32_cam_registry_store.json
+esp32_env_registry_store.json
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Build output
+build/
+dist/
+*.bin
+*.elf
+
+# Python virtual environments (tooling)
+venv/
+.venv/
+env/
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+_notes/
+.vscode/
+.idea/
+*.swp
